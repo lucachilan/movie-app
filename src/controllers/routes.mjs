@@ -1,5 +1,5 @@
 import { loadMovies } from "./movieDisplay.mjs";
-import '/public/css/main.css';
+import '../css/main.css';
 /*
  * Client-side route definitions.
  * Maps URL pathnames to their page initialization functions.
