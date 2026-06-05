@@ -7,7 +7,7 @@ import '../css/main.css';
 const routes = {
     "/": { handler: loadMovies, title: "Home" },
     "/index.html": { handler: loadMovies, title: "Home" },
-    "/movie/": { handler: null, title: "Movie Details" },
+    "/movie/": { handler: loadMovies, title: "Movie Details" },
     "/wishlist/": { handler: null, title: "Wishlist" }
 };
 
